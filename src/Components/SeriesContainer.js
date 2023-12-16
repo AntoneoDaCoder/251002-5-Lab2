@@ -10,31 +10,31 @@ export default function SeriesContainer() {
       id: 1,
       title: 'Симпсоны',
       age: 1989,
-      image: '/Images/simpsons.png',
+      image: './Images/simpsons.png',
     },
     {
       id: 2,
       title: 'Доктор Кто',
       age: 1963,
-      image: '/Images/doctor.png',
+      image: './Images/doctor.png',
     },
     {
       id: 3,
       title: 'Главная больница',
       age: 1963,
-      image: '/Images/general.jpg',
+      image: './Images/general.jpg',
     },
     {
       id: 4,
       title: 'Улица Коронации',
       age: 1960,
-      image: '/Images/street.png',
+      image: './Images/street.png',
     },
     {
       id: 5,
       title: 'Закон и порядок',
       age: 1990,
-      image: '/Images/law.png',
+      image: './Images/law.png',
     },
   ];
 

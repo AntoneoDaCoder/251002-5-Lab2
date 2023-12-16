@@ -11,7 +11,7 @@ export default function MainPart() {
     return (
         <>
             <div className="mainWrapStyle">
-                <img src='/Images/main.png' className="mainImgStyle" alt="img" />
+                <img src='./Images/main.png' className="mainImgStyle" alt="img" />
                 <div className="mainSeriesWrap">
                     <p className="mainHeader">{t('main.1')}</p>
                     <p className="mainColumn">{t('main.2')}</p>
