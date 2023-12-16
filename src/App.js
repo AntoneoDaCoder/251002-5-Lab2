@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from './Pages/Home'
 import { Series } from './Pages/Series'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import SerialFullInfo from './Pages/SerialFullInfo';
 function App() {
   return (
