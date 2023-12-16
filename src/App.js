@@ -9,8 +9,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/series" element={<Series />} />
-          <Route path="/series/:id" element={<SerialFullInfo/>} />
+          <Route path="series" element={<Series />} />
+          <Route path="series/:id" element={<SerialFullInfo/>} />
         </Routes>
       </Router>
     </>

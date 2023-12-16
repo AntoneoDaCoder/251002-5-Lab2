@@ -55,7 +55,7 @@ export default function SeriesContainer() {
       <p className="containerTitle">{t('day.2.' + currentSerialIndex)}</p>
       <p className="containerYear">{age}</p>
       <p className="containerDescription">{t('day.3.' + currentSerialIndex)}</p>
-      <button className="containerButton" onClick={() => navg("/series/" + currentSerialIndex)}>{t('day.4')}</button>
+      <button className="containerButton" onClick={() => navg("series/" + currentSerialIndex)}>{t('day.4')}</button>
     </>
   );
 
