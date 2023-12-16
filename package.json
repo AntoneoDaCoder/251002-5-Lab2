@@ -24,7 +24,7 @@
     "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://AntoneoDaCoder.github.io/251002-5-Lab2",
+  "homepage": "https://AntoneoDaCoder.github.io/251002-5-Lab2/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
