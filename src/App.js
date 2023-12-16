@@ -8,9 +8,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="https://antoneodacoder.github.io/251002-5-Lab2/" element={<Home />} />
-          <Route path="https://antoneodacoder.github.io/251002-5-Lab2/series" element={<Series />} />
-          <Route path="https://antoneodacoder.github.io/251002-5-Lab2/series/:id" element={<SerialFullInfo/>} />
+          <Route path="https://AntoneoDaCoder.github.io/251002-5-Lab2/" element={<Home />} />
+          <Route path="https://AntoneoDaCoder.github.io/251002-5-Lab2/series" element={<Series />} />
+          <Route path="https://AntoneoDaCoder.github.io/251002-5-Lab2/series/:id" element={<SerialFullInfo/>} />
         </Routes>
       </Router>
     </>

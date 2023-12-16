@@ -19,8 +19,8 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link><Link className="navBarLink" to="https://antoneodacoder.github.io/251002-5-Lab2/">{t('navbar.1')}</Link></Nav.Link>
-                    <Nav.Link><Link className="navBarLink" to="https://antoneodacoder.github.io/251002-5-Lab2/series">{t('navbar.2')}</Link></Nav.Link>
+                    <Nav.Link><Link className="navBarLink" to="https://AntoneoDaCoder.github.io/251002-5-Lab2/">{t('navbar.1')}</Link></Nav.Link>
+                    <Nav.Link><Link className="navBarLink" to="https://AntoneoDaCoder.github.io/251002-5-Lab2/series">{t('navbar.2')}</Link></Nav.Link>
                     <Nav.Link onClick={scrollToDaySerial}>{t('navbar.3')}</Nav.Link>
                     <NavDropdown title={t('navbar.4')}>
                         <NavDropdown.Item eventKey="en" onClick={() => i18n.changeLanguage("en")}>en</NavDropdown.Item>
