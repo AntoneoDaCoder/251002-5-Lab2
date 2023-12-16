@@ -8,9 +8,9 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="251002-5-Lab2/" element={<Home />} />
-          <Route path="251002-5-Lab2/series" element={<Series />} />
-          <Route path="251002-5-Lab2/series/:id" element={<SerialFullInfo/>} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/series" element={<Series />} />
+          <Route path="/series/:id" element={<SerialFullInfo/>} />
         </Routes>
       </Router>
     </>
