@@ -10,7 +10,7 @@ export default function NavBar() {
             behavior: 'smooth',
         });
     };
-    const {t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
     return (<>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
             <Navbar.Brand>

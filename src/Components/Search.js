@@ -30,7 +30,7 @@ const Search = ({ shows }) => {
                 <div className="listStyle">
                     {searchResults.map(show => (
                         <div key={show.id} className="listElementStyle">
-                            <img className="listImgStyle" onClick={() => navg("series/" + (show.id - 1))} src={show.image} alt={show.title} />
+                            <img className="listImgStyle" onClick={() => navg("/series/" + (show.id - 1))} src={show.image} alt={show.title} />
                             <p className="listSeriesCaption">{show.title}</p>
                         </div>
                     ))}
@@ -39,7 +39,7 @@ const Search = ({ shows }) => {
                 <div className="listStyle">
                     {shows.map(show => (
                         <div key={show.id} className="listElementStyle">
-                            <img className="listImgStyle" onClick={() => navg("series/" + (show.id - 1))} src={show.image} alt={show.title} />
+                            <img className="listImgStyle" onClick={() => navg("/series/" + (show.id - 1))} src={show.image} alt={show.title} />
                             <p className="listSeriesCaption">{show.title}</p>
                         </div>
                     ))}
