@@ -8,7 +8,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
-    "gh-pages": "^6.1.0",
     "i18n": "^0.15.1",
     "i18next": "^23.7.11",
     "i18next-browser-languagedetector": "^7.2.0",
@@ -25,7 +24,7 @@
     "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://antoneodacoder.github.io/",
+  "homepage": "https://AntoneoDaCoder.github.io/251002-5-Lab2",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
