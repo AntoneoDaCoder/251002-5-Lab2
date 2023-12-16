@@ -13,7 +13,7 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link><Link className="navBarLink" to="/">{t('navbar.1')}</Link></Nav.Link>
+                    <Nav.Link><Link className="navBarLink" to="251002-5-Lab2/">{t('navbar.1')}</Link></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar >
